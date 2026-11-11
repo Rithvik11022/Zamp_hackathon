@@ -6,6 +6,6 @@ pydantic==2.10.3
 pydantic-settings==2.7.0
 anthropic==0.42.0
 google-genai==3.0.0
-rapidfuzz==3.11.0
+rapidfuzz>=3.11.0
 python-multipart==0.0.19
 sse-starlette==2.2.1
