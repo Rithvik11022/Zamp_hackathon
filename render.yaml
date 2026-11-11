@@ -13,7 +13,7 @@ services:
         sync: false
       - key: ANTHROPIC_API_KEY
         sync: false
-      - key: CORS_ORIGINS
+      - key: CORS_ORIGINS_STR
         sync: false
 
   - type: web
