@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     anthropic_api_key: str = os.getenv("ANTHROPIC_API_KEY", "")
     gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
     database_url: str = "sqlite+aiosqlite:///./vendor_db.sqlite"
-    cors_origins: list[str] = ["http://localhost:3000"]
+    cors_origins: list[str] = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://localhost:9000").split(",")
     ai_model_fast: str = "claude-haiku-4-5-20241022"
     ai_model_reasoning: str = "claude-sonnet-4-20250514"
     gemini_model: str = "gemini-2.0-flash"
