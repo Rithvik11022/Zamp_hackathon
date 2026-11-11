@@ -2,6 +2,8 @@ services:
   - type: web
     name: zamp-backend
     runtime: python
+    python:
+      version: "3.12.3"
     plan: free
     rootDir: backend
     buildCommand: pip install -r requirements.txt
