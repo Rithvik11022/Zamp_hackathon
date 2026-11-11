@@ -1,0 +1,26 @@
+{
+  "_label": "Happy Path — Meridian Solutions GmbH",
+  "_description": "Clean German vendor with valid details. Expected result: APPROVED.",
+  "company_name": "Meridian Solutions GmbH",
+  "trading_name": "Meridian Solutions",
+  "country": "DE",
+  "address": "Friedrichstraße 123, 10117 Berlin, Germany",
+  "tax_id": "DE123456789",
+  "contact_name": "Hans Mueller",
+  "contact_email": "hans.mueller@meridian-solutions.de",
+  "bank_account_holder": "Meridian Solutions GmbH",
+  "iban": "DE89370400440532013001",
+  "swift_bic": "COBADEFFXXX",
+  "documents": [
+    {
+      "filename": "meridian_certificate_of_incorporation.pdf",
+      "document_type": "certificate_of_incorporation",
+      "content_summary": "Certificate of Incorporation for Meridian Solutions GmbH, registered in Berlin, Germany. Registration number HRB 123456 B. Date of incorporation: 15 March 2018. Managing Director: Hans Mueller."
+    },
+    {
+      "filename": "meridian_tax_registration.pdf",
+      "document_type": "tax_registration",
+      "content_summary": "Tax Registration Certificate issued by Finanzamt Berlin. Tax ID: DE123456789. Entity: Meridian Solutions GmbH. Valid from 01 January 2024 to 31 December 2026."
+    }
+  ]
+}

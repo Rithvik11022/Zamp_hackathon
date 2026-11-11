@@ -1,0 +1,26 @@
+{
+  "_label": "Edge Case — Sanctions Match (OFAC SDN)",
+  "_description": "Vendor name 'Al-Rashid Trading Company' fuzzy-matches OFAC SDN entry 'Al-Rashid Trading Corp'. Expected result: REJECTED with mandatory escalation.",
+  "company_name": "Al-Rashid Trading Company",
+  "trading_name": "Al-Rashid Trading",
+  "country": "AE",
+  "address": "Office 405, Business Bay Tower, Dubai, UAE",
+  "tax_id": "100234567890123",
+  "contact_name": "Omar Al-Farsi",
+  "contact_email": "omar@alrashidtrading.ae",
+  "bank_account_holder": "Al-Rashid Trading Company",
+  "iban": "AE070331234567890123456",
+  "swift_bic": "ABORAEADXXX",
+  "documents": [
+    {
+      "filename": "alrashid_trade_license.pdf",
+      "document_type": "certificate_of_incorporation",
+      "content_summary": "Trade License issued by Dubai Department of Economic Development. License Number: 789012. Company Name: Al-Rashid Trading Company LLC. Activity: General Trading. Date of issue: 5 January 2023. Expiry: 4 January 2025."
+    },
+    {
+      "filename": "alrashid_tax_cert.pdf",
+      "document_type": "tax_registration",
+      "content_summary": "Tax Registration Number Certificate. TRN: 100234567890123. Entity: Al-Rashid Trading Company LLC. Issued by: UAE Federal Tax Authority. Registration Date: 1 March 2023."
+    }
+  ]
+}

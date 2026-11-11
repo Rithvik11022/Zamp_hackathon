@@ -1,0 +1,162 @@
+[
+  {
+    "id": "SDN-10001",
+    "name": "Al-Rashid Trading Corp",
+    "type": "Entity",
+    "program": "SDGT",
+    "aliases": ["Al Rashid Trading Corporation", "Rashid Trading Co."],
+    "country": "SY"
+  },
+  {
+    "id": "SDN-10002",
+    "name": "Petrolex International Holdings",
+    "type": "Entity",
+    "program": "IRAN",
+    "aliases": ["Petrolex Holdings", "Petrolex Intl"],
+    "country": "IR"
+  },
+  {
+    "id": "SDN-10003",
+    "name": "Golden Dragon Shipping Ltd",
+    "type": "Entity",
+    "program": "DPRK",
+    "aliases": ["Golden Dragon Maritime", "GD Shipping"],
+    "country": "KP"
+  },
+  {
+    "id": "SDN-10004",
+    "name": "Hafez Military Industries",
+    "type": "Entity",
+    "program": "SYRIA",
+    "aliases": ["Hafez Defense", "HMI Group"],
+    "country": "SY"
+  },
+  {
+    "id": "SDN-10005",
+    "name": "Crimea Energy Solutions",
+    "type": "Entity",
+    "program": "UKRAINE-EO13662",
+    "aliases": ["CES Energy", "Crimea Energy"],
+    "country": "RU"
+  },
+  {
+    "id": "SDN-10006",
+    "name": "Noor Al-Huda Foundation",
+    "type": "Entity",
+    "program": "SDGT",
+    "aliases": ["Al-Huda Foundation", "Noor Foundation"],
+    "country": "PK"
+  },
+  {
+    "id": "SDN-10007",
+    "name": "Kaveh Steel Industries",
+    "type": "Entity",
+    "program": "IRAN",
+    "aliases": ["Kaveh Steel", "KSI Iran"],
+    "country": "IR"
+  },
+  {
+    "id": "SDN-10008",
+    "name": "Yunlong Heavy Machinery Co",
+    "type": "Entity",
+    "program": "DPRK",
+    "aliases": ["Yunlong Machinery", "YL Heavy Industries"],
+    "country": "KP"
+  },
+  {
+    "id": "SDN-10009",
+    "name": "Banco Delta Finance",
+    "type": "Entity",
+    "program": "BPI-SDNTK",
+    "aliases": ["Delta Finance Bank", "BDF International"],
+    "country": "MM"
+  },
+  {
+    "id": "SDN-10010",
+    "name": "Sahara Minerals Trading FZE",
+    "type": "Entity",
+    "program": "SDGT",
+    "aliases": ["Sahara Minerals", "SMT Free Zone"],
+    "country": "AE"
+  },
+  {
+    "id": "SDN-10011",
+    "name": "Viktor Bout Aviation Network",
+    "type": "Entity",
+    "program": "SDNTK",
+    "aliases": ["VB Aviation", "Bout Air Network"],
+    "country": "RU"
+  },
+  {
+    "id": "SDN-10012",
+    "name": "Tehran Petrochemical Alliance",
+    "type": "Entity",
+    "program": "IRAN",
+    "aliases": ["TPA Group", "Tehran Petrochem"],
+    "country": "IR"
+  },
+  {
+    "id": "SDN-10013",
+    "name": "Donbas Industrial Consortium",
+    "type": "Entity",
+    "program": "UKRAINE-EO13660",
+    "aliases": ["DIC Group", "Donbas Industries"],
+    "country": "UA"
+  },
+  {
+    "id": "SDN-10014",
+    "name": "Myanmar Gems Enterprise",
+    "type": "Entity",
+    "program": "BURMA",
+    "aliases": ["MGE", "Myanmar Gems"],
+    "country": "MM"
+  },
+  {
+    "id": "SDN-10015",
+    "name": "Jabhat al-Nusra Relief Committee",
+    "type": "Entity",
+    "program": "SDGT",
+    "aliases": ["Al-Nusra Relief", "JN Relief"],
+    "country": "SY"
+  },
+  {
+    "id": "SDN-10016",
+    "name": "Khartoum Defense Technologies",
+    "type": "Entity",
+    "program": "SUDAN",
+    "aliases": ["KDT Sudan", "Khartoum Defense"],
+    "country": "SD"
+  },
+  {
+    "id": "SDN-10017",
+    "name": "Minsk Precision Instruments",
+    "type": "Entity",
+    "program": "BELARUS",
+    "aliases": ["MPI Belarus", "Minsk Precision"],
+    "country": "BY"
+  },
+  {
+    "id": "SDN-10018",
+    "name": "Arabian Gulf Consultancy FZC",
+    "type": "Entity",
+    "program": "SDGT",
+    "aliases": ["AG Consultancy", "Gulf Consultancy FZC"],
+    "country": "AE"
+  },
+  {
+    "id": "SDN-10019",
+    "name": "Pyongyang Electronics Bureau",
+    "type": "Entity",
+    "program": "DPRK",
+    "aliases": ["PEB", "Pyongyang Electronics"],
+    "country": "KP"
+  },
+  {
+    "id": "SDN-10020",
+    "name": "Crescent Petroleum Trading LLC",
+    "type": "Entity",
+    "program": "IRAN",
+    "aliases": ["Crescent Petroleum", "CPT Trading"],
+    "country": "IR"
+  }
+]

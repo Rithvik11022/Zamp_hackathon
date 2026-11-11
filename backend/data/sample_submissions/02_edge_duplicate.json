@@ -1,0 +1,26 @@
+{
+  "_label": "Edge Case — Near-Duplicate Vendor",
+  "_description": "Submits as 'ABC Technologies Pvt Ltd' but 'ABC Tech Private Limited' already exists with the same GSTIN. Expected result: PENDING (duplicate warning).",
+  "company_name": "ABC Technologies Pvt Ltd",
+  "trading_name": "ABC Technologies",
+  "country": "IN",
+  "address": "42 MG Road, Andheri East, Mumbai 400069, India",
+  "tax_id": "27AABCU9603R1ZM",
+  "contact_name": "Priya Sharma",
+  "contact_email": "priya.sharma@abctechnologies.in",
+  "bank_account_holder": "ABC Technologies Pvt Ltd",
+  "iban": "SBIN0001234567891",
+  "swift_bic": "SBININBB",
+  "documents": [
+    {
+      "filename": "abc_tech_incorporation.pdf",
+      "document_type": "certificate_of_incorporation",
+      "content_summary": "Certificate of Incorporation for ABC Technologies Private Limited, registered with MCA India. CIN: U72200MH2019PTC123456. Date of incorporation: 8 July 2019."
+    },
+    {
+      "filename": "abc_tech_gst_registration.pdf",
+      "document_type": "tax_registration",
+      "content_summary": "GST Registration Certificate. GSTIN: 27AABCU9603R1ZM. Legal Name: ABC Technologies Private Limited. Trade Name: ABC Technologies. State: Maharashtra."
+    }
+  ]
+}

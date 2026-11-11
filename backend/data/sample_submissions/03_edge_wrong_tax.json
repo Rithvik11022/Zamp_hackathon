@@ -1,0 +1,26 @@
+{
+  "_label": "Edge Case — Wrong Tax Format for Country",
+  "_description": "German vendor submits a US-format EIN (12-3456789) instead of a German VAT ID (DE + 9 digits). Expected result: REJECTED.",
+  "company_name": "Rheinland Consulting AG",
+  "trading_name": "Rheinland Consulting",
+  "country": "DE",
+  "address": "Königsallee 92, 40212 Düsseldorf, Germany",
+  "tax_id": "12-3456789",
+  "contact_name": "Markus Weber",
+  "contact_email": "m.weber@rheinland-consulting.de",
+  "bank_account_holder": "Rheinland Consulting AG",
+  "iban": "DE44500105175407324931",
+  "swift_bic": "INGDDEFFXXX",
+  "documents": [
+    {
+      "filename": "rheinland_incorporation.pdf",
+      "document_type": "certificate_of_incorporation",
+      "content_summary": "Certificate of Incorporation for Rheinland Consulting AG, registered at Amtsgericht Düsseldorf. Registration number HRB 78901. Date of incorporation: 3 September 2015."
+    },
+    {
+      "filename": "rheinland_tax_cert.pdf",
+      "document_type": "tax_registration",
+      "content_summary": "Tax registration document from Finanzamt Düsseldorf for Rheinland Consulting AG. Steuernummer: 133/5784/0501. Valid through 2025."
+    }
+  ]
+}

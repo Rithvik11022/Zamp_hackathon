@@ -1,0 +1,52 @@
+[
+  {
+    "vendor_id": "V-001",
+    "company_name": "ABC Tech Private Limited",
+    "trading_name": "ABC Tech",
+    "country": "IN",
+    "tax_id": "27AABCU9603R1ZM",
+    "iban": "SBIN0001234567890",
+    "contact_name": "Rajesh Kumar",
+    "contact_email": "rajesh@abctech.in"
+  },
+  {
+    "vendor_id": "V-002",
+    "company_name": "Nordic Supply Chain AS",
+    "trading_name": "Nordic Supply",
+    "country": "NO",
+    "tax_id": "NO987654321",
+    "iban": "NO9386011117947",
+    "contact_name": "Erik Johansson",
+    "contact_email": "erik@nordicsupply.no"
+  },
+  {
+    "vendor_id": "V-003",
+    "company_name": "Sterling & Partners Ltd",
+    "trading_name": "Sterling Partners",
+    "country": "GB",
+    "tax_id": "GB123456789",
+    "iban": "GB29NWBK60161331926819",
+    "contact_name": "James Whitfield",
+    "contact_email": "james@sterlingpartners.co.uk"
+  },
+  {
+    "vendor_id": "V-004",
+    "company_name": "Pacifica Logistics Inc",
+    "trading_name": "Pacifica Logistics",
+    "country": "US",
+    "tax_id": "84-1234567",
+    "iban": "021000021123456789",
+    "contact_name": "Sarah Chen",
+    "contact_email": "sarah@pacificalogistics.com"
+  },
+  {
+    "vendor_id": "V-005",
+    "company_name": "Brenner Maschinenbau GmbH",
+    "trading_name": "Brenner Engineering",
+    "country": "DE",
+    "tax_id": "DE987654321",
+    "iban": "DE89370400440532013000",
+    "contact_name": "Klaus Brenner",
+    "contact_email": "klaus@brenner-maschinenbau.de"
+  }
+]

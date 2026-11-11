@@ -1,0 +1,26 @@
+{
+  "_label": "Edge Case — Wrong Document + Missing SWIFT",
+  "_description": "Vendor attaches an invoice instead of Certificate of Incorporation, and SWIFT/BIC code is missing. Expected result: REJECTED.",
+  "company_name": "Bright Future Enterprises Ltd",
+  "trading_name": "Bright Future",
+  "country": "GB",
+  "address": "14 King Street, Manchester M2 4WQ, United Kingdom",
+  "tax_id": "GB987654321",
+  "contact_name": "Emily Watson",
+  "contact_email": "emily@brightfuture.co.uk",
+  "bank_account_holder": "Bright Future Enterprises Ltd",
+  "iban": "GB33BUKB20201555555555",
+  "swift_bic": "",
+  "documents": [
+    {
+      "filename": "invoice_2024_Q3.pdf",
+      "document_type": "certificate_of_incorporation",
+      "content_summary": "INVOICE #INV-2024-0847. From: Bright Future Enterprises Ltd. To: Acme Corp. Date: 15 September 2024. Items: Consulting services — Q3 2024. Subtotal: £12,500.00. VAT (20%): £2,500.00. Total: £15,000.00. Payment terms: Net 30."
+    },
+    {
+      "filename": "bf_tax_registration.pdf",
+      "document_type": "tax_registration",
+      "content_summary": "HMRC VAT Registration Certificate. VAT Registration Number: GB987654321. Business Name: Bright Future Enterprises Ltd. Effective date: 1 April 2020."
+    }
+  ]
+}
