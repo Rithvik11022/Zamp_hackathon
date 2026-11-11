@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from rapidfuzz import fuzz
+from services.fuzzy import token_sort_ratio as _token_sort_ratio
 
 from models import StageResult, StageStatus, VendorSubmission
 
@@ -35,7 +35,7 @@ def run(submission: VendorSubmission) -> StageResult:
     company_norm = _normalize(submission.company_name)
     bank_holder_norm = _normalize(submission.bank_account_holder)
 
-    name_similarity = fuzz.token_sort_ratio(company_norm, bank_holder_norm) / 100.0
+    name_similarity = _token_sort_ratio(company_norm, bank_holder_norm) / 100.0
 
     if name_similarity >= 0.85:
         checks_passed.append(

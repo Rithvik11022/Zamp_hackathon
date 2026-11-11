@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 
-from rapidfuzz import fuzz
+from services.fuzzy import token_sort_ratio as _token_sort_ratio
 
 from models import StageResult, StageStatus, VendorSubmission
 
@@ -67,7 +67,7 @@ def run(submission: VendorSubmission) -> StageResult:
         v_tax = vendor.get("tax_id", "").strip().upper()
         v_iban = vendor.get("iban", "").replace(" ", "").upper()
 
-        name_score = fuzz.token_sort_ratio(sub_name, v_name) / 100.0
+        name_score = _token_sort_ratio(sub_name, v_name) / 100.0
         tax_match = sub_tax == v_tax and sub_tax != ""
         iban_match = sub_iban == v_iban and sub_iban != ""
 

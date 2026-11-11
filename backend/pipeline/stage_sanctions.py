@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 
-from rapidfuzz import fuzz
+from services.fuzzy import token_sort_ratio as _token_sort_ratio
 
 from models import StageResult, StageStatus, VendorSubmission
 
@@ -51,7 +51,7 @@ def run(submission: VendorSubmission) -> StageResult:
 
         for check_name in names_to_check:
             for sdn_name in all_sdn_names:
-                score = fuzz.token_sort_ratio(check_name, sdn_name) / 100.0
+                score = _token_sort_ratio(check_name, sdn_name) / 100.0
                 if score >= MATCH_THRESHOLD:
                     hits.append({
                         "sdn_name": entry.get("name", ""),
